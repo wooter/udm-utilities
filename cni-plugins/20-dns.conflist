@@ -5,14 +5,14 @@
     {
       "type": "macvlan",
       "mode": "bridge",
-      "master": "br5",
+      "master": "br2",
       "mac": "00:1F:C5:68:3B:F7",
       "ipam": {
         "type": "static",
         "addresses": [
           {
-            "address": "192.168.1.2/24",
-            "gateway": "192.168.1.1"
+            "address": "192.168.2.2/24",
+            "gateway": "192.168.2.1"
           }
         ],
         "routes": [
