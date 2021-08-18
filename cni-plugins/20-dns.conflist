@@ -6,7 +6,7 @@
       "type": "macvlan",
       "mode": "bridge",
       "master": "br5",
-      "mac": "00-1f-c5-68-3b-f7",
+      "mac": "00:1F:C5:68:3B:F7",
       "ipam": {
         "type": "static",
         "addresses": [
