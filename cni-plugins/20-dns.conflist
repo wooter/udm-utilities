@@ -6,13 +6,13 @@
       "type": "macvlan",
       "mode": "bridge",
       "master": "br5",
-      "mac": "PUT YOUR GENERATED OWN MAC HERE",
+      "mac": "2F:9C:B4:1C:26:F4",
       "ipam": {
         "type": "static",
         "addresses": [
           {
-            "address": "10.0.5.3/24",
-            "gateway": "10.0.5.1"
+            "address": "192.168.1.2/24",
+            "gateway": "192.168.1.1"
           }
         ],
         "routes": [
